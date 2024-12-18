@@ -72,7 +72,7 @@ public class EmployeeView extends JFrame {
 
         add(panelBoutons, BorderLayout.SOUTH);
 
-        // Table des employÃ©s
+        // Table des employ�s
         tableModel = new DefaultTableModel(new String[]{"ID", "Nom", "Prénom", "Email", "Téléphone", "Salaire", "Poste", "Role"}, 0);
         JT = new JTable(tableModel);
         JScrollPane scrollPane = new JScrollPane(JT);
@@ -97,7 +97,7 @@ public class EmployeeView extends JFrame {
         }
     }
 
-    // MÃ©thodes d'accÃ¨s aux composants
+    // M�thodes d'acc�s aux composants
     public String getNom() {
         return nom.getText();
     }
